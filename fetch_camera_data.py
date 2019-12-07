@@ -76,11 +76,12 @@ def get_image(get_response):
 
 if __name__ == "__main__":
     #parameters
-    iterations = 10
-    path_to_data_dir = "./calibration_imgs/"
-    camera_dir = path_to_data_dir + "camera_{}/"
+    iterations = 30
+    pinhole_dir = "./calibration/pinhole/"
+    fisheye_dir = "./calibration/fisheye/"
+    calibration_dirs = [fisheye_dir, pinhole_dir]
     #constants
-    image_name = "jibo_capture_{}.png"
+    image_name = "{}.png"
     jibo_ip = "192.168.41.90"
     media_port = 8486
     photos_extension = "/media/photo"
@@ -103,5 +104,7 @@ if __name__ == "__main__":
                 print("current get_response: ", camera, get_responses[camera])
                 img = get_image(get_responses[camera])
                 print("saving to: ", image_name.format(str(i)))
-                img.save(camera_dir.format(camera)+ image_name.format(str(i)))
+                img.save(calibration_dirs[camera] + image_name.format(str(i)))
             i += 1
+
+
