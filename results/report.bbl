@@ -1,0 +1,43 @@
+\begin{thebibliography}{6}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Bay et~al.(2006)Bay, Tuytelaars, and Van~Gool]{bay2006surf}
+Herbert Bay, Tinne Tuytelaars, and Luc Van~Gool.
+\newblock Surf: Speeded up robust features.
+\newblock In \emph{European conference on computer vision}, pages 404--417.
+  Springer, 2006.
+
+\bibitem[Gur and Wolf(2019)]{gur2019single}
+Shir Gur and Lior Wolf.
+\newblock Single image depth estimation trained via depth from defocus cues.
+\newblock In \emph{Proceedings of the IEEE Conference on Computer Vision and
+  Pattern Recognition}, pages 7683--7692, 2019.
+
+\bibitem[Koch et~al.(1998)Koch, Pollefeys, and Van~Gool]{koch1998multi}
+Reinhard Koch, Marc Pollefeys, and Luc Van~Gool.
+\newblock Multi viewpoint stereo from uncalibrated video sequences.
+\newblock In \emph{European conference on computer vision}, pages 55--71.
+  Springer, 1998.
+
+\bibitem[Tappen and Freeman(2003)]{tappen2003comparison}
+Marshall~F Tappen and William~T Freeman.
+\newblock Comparison of graph cuts with belief propagation for stereo, using
+  identical mrf parameters.
+\newblock In \emph{null}, page 900. IEEE, 2003.
+
+\bibitem[Tappen et~al.(2003)Tappen, Freeman, and Adelson]{tappen2003recovering}
+Marshall~F Tappen, William~T Freeman, and Edward~H Adelson.
+\newblock Recovering intrinsic images from a single image.
+\newblock In \emph{Advances in neural information processing systems}, pages
+  1367--1374, 2003.
+
+\bibitem[Xie et~al.(2017)Xie, Chen, and Orchard]{xie2017event}
+Zhen Xie, Shengyong Chen, and Garrick Orchard.
+\newblock Event-based stereo depth estimation using belief propagation.
+\newblock \emph{Frontiers in neuroscience}, 11:\penalty0 535, 2017.
+
+\end{thebibliography}
